@@ -3,14 +3,27 @@
         <meta charset="UTF-8">
         <title>Page Title</title>
         
-        <script scr="rockPaper.js"></script>
+        <script src="rockPaper.js" defer></script>
     </head>
 
     <body>
         <h1>Rock Paper Scissors</h1>
 
-        <div id="container">
+        <p>Welcome to the Rock Paper Scissors game (best of 3)</p>
+        <p>Make your chooice:</p>
+        
+        <button class="btn" id="rockBtn">Rock</button>
+        <button class="btn" id="paperBtn">Paper</button>
+        <button class="btn" id="scissorsBtn">Scissors</button>
 
-        </div>
+        <p id="playerPick">Player Picked: </p>
+        <p id="computerPick">Computer Picked: </p>
+
+        <p id="playerScore">Player Score: </p>
+        <p id="computerScore">Computer Score: </p>
+
+        <button class="btn" id="restart">Resart Game</button>
+
+        <p id="winner"></p>
     </body>
 </html>
